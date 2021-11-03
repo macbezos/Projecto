@@ -5,7 +5,6 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Bulb Stores</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
@@ -18,8 +17,8 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Bulb type Uno &rarr;</h3>
+          <a href="/bulbuno" className="card">
+            <h3>Bulb type Uno </h3>
             <p>Explore the features of bulb type uno.</p>
           </a>
 
