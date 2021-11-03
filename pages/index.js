@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Link from 'next/link'
 export default function Home() {
   return (
     <div className="container">
@@ -16,11 +16,11 @@ export default function Home() {
           Our bulbs are high class.
         </p>
 
-        <div className="grid">
+        <div className="grid"><link>
           <a href="/bulbuno" className="card">
             <h3>Bulb type Uno </h3>
             <p>Explore the features of bulb type uno.</p>
-          </a>
+          </a> </link>
 
           <a href="https://nextjs.org/learn" className="card">
             <h3>Bulb type dos</h3>
