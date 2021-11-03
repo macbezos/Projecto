@@ -16,8 +16,10 @@ export default function Home() {
           Our bulbs are high class.
         </p>
 
-        <div className="grid"><link>
-          <a href="/bulbuno" className="card">
+        <div className="grid">
+          Read{''}
+          <link href="/bulbuno">
+          <a className="card">
             <h3>Bulb type Uno </h3>
             <p>Explore the features of bulb type uno.</p>
           </a> </link>
