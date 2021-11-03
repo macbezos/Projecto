@@ -9,7 +9,7 @@ export default function bulbuno() {
     <a href="/"><bold>HOME</bold></a>
     </link>
  <style jsx>{`
-   .heading {
+   heading {
      text-align: center;
      background-color: blue;
    }
